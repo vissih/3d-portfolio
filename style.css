@@ -151,6 +151,7 @@ html, body {
     padding: 3.5vw 3vw;
     padding-right: 0;
     border-top: 1px solid #888;
+    text-decoration: none;
 }
 
 .elem h1 {
