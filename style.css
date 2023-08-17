@@ -151,6 +151,10 @@ html, body {
     padding: 3.5vw 3vw;
     padding-right: 0;
     border-top: 1px solid #888;
+}
+
+.elem a{
+    color: #fff;
     text-decoration: none;
 }
 
@@ -226,9 +230,13 @@ html, body {
 
 #subscribe h3 {
     text-transform: uppercase;
-    text-decoration: none;
     font-size: 14px;
     margin-top: 10px;
+}
+
+#subscribe a{
+        color: #fff;
+        text-decoration: none;
 }
 
 #footer {
