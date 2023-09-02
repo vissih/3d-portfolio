@@ -69,7 +69,6 @@ circleChaptaKaro();
 circleMouseFollower();
 firstPageAnim();
 
-// teeno element ko sleect karo, uske baad teeno par ek mousemove lagao, jab mousemove ho to ye pata karo ki mouse kaha par hai, jiska matlab hai mouse ki x and y position pata karo, ab mouse ki x y position ke badle us image ko show karo and us image ko move karo, move karte waqt rotate karo, and jaise jaise mouse tez chale waise waise rotation bhi tez ho jaye
 
 document.querySelectorAll(".elem").forEach(function (elem) {
   var rotate = 0;
