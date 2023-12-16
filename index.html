@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>vissih</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-            <div class="frame" id="Frame">
-                <div class="line frame_line frame_line-left"></div>
-                <div class="line frame_line frame_line-right"></div>
-                <div class="line frame_line frame_line-top"></div>
-                <div class="line frame_line frame_line-bottom"></div>
-                <h3 class="main"> under construction ;P </h3>
-            </div>
-            <script src="main.js"></script>
-    </body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+				overflow: hidden;
+      }
+      html, body {
+        height: 100%;
+      }
+      canvas {
+        display: block;
+      }
+      .logo{position:absolute;bottom:16px;right:16px;width:32px;height:32px;z-index:2;background-image:url(https://app.spline.design/_assets/_icons/icon_favicon32x32.png);background-size:cover;}.logo:hover{opacity:0.8;}
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas3d"></canvas>
+    <a class="logo" href="https://spline.design"></a>
+    <script type="module">
+      import { Application } from './runtime.js';
+      const canvas = document.getElementById('canvas3d');
+      const app = new Application(canvas);
+      app.load('./scene.splinecode');
+    </script>
+  </body>
 </html>
+  
